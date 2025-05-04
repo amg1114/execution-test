@@ -1,0 +1,25 @@
+Descripcion:
+------------
+Archivo 'clientes.csv' contiene datos de 500.000 clientes de una gran superficie
+
+Estructura:
+-----------
+Cantidad de registros (filas): 500.000
+Cantidad de campos (columnas): 16
+
+[Columna A] ID del cliente: Primary key
+[Columna B] Genero: 1=Mujer, 2=Hombre
+[Columna C] Edad: entre 16 y 85
+[Columna D] Nivel academico: 1=Bachiller, 2=Tecnico, 3=Universitario
+[Columna E] Estrato: entre 1 y 5
+[Columna F] Ciudad residencia: entre 1 y 10
+[Columna G] Cant hijos: entre 0 y 5
+[Columna H] Num salarios minimos: entre 0 y 10
+[Columna I] Pensionado: 0=No, 1=Si
+[Columna J] Tipo tarjeta: 0=No, 1=Debito, 2=Credito
+[Columna K] Intension tener tarjeta del establecimiento: 0=No, 1=Si
+[Columna L] Cantidad articulos comprados: entre 1 y 25
+[Columna M] Tipo articulo mas comprado: codigo entre 1 y 50
+[Columna N] Mes donde mas compra: entre 1 y 12
+[Columna O] Compra en quincena: 0=No, 1=Si
+[Columna P] Articulo de mayor intension de compra: codigo entre 1 y 50
