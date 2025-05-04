@@ -1,49 +1,55 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class Cliente {
   @PrimaryGeneratedColumn()
-  id!: number;
+  nativeKey!: string;
 
-  @Column({ type: "int", nullable: false })
-  genero!: number; // 1 = Feminino, 2 = Masculino
+  @Column({ nullable: false })
+  id!: string;
 
-  @Column({ type: "int", nullable: false })
-  edad!: number;
+  @Column({ nullable: false })
+  genero!: string; // 1 = Feminino, 2 = Masculino
 
-  @Column({ type: "int", nullable: false })
-  nivelAcademico!: number; // 1=Bachiller, 2=Tecnico, 3=Universitario
+  @Column({ nullable: false })
+  edad!: string;
 
-  @Column({ type: "int", nullable: false })
-  ciudad!: number;
+  @Column({ nullable: false })
+  nivelAcademico!: string; // 1=Bachiller, 2=Tecnico, 3=Universitario
 
-  @Column({ type: "int", nullable: false })
-  cantHijos!: number;
+  @Column({ nullable: false })
+  estrato!: string;
 
-  @Column({ type: "int", nullable: false })
-  numSalarios!: number;
+  @Column({ nullable: false })
+  ciudad!: string;
 
-  @Column({ type: "int", nullable: false })
-  pensiondado!: number;
+  @Column({ nullable: false })
+  cantHijos!: string;
 
-  @Column({ type: "int", nullable: false })
-  tipoTarjeta!: number;
+  @Column({ nullable: false })
+  numSalarios!: string;
 
-  @Column({ type: "int", nullable: false })
-  deseaTarjeta!: number;
+  @Column({ nullable: false })
+  pensiondado!: string;
 
-  @Column({ type: "int", nullable: false })
-  cantArticulos!: number;
+  @Column({ nullable: false })
+  tipoTarjeta!: string;
 
-  @Column({ type: "int", nullable: false })
-  articuloMasComprado!: number;
+  @Column({ nullable: false })
+  deseaTarjeta!: string;
 
-  @Column({ type: "int", nullable: false })
-  mesDeMasCompras!: number;
+  @Column({ nullable: false })
+  cantArticulos!: string;
 
-  @Column({ type: "int", nullable: false })
-  compraEnQuincena!: number;
+  @Column({ nullable: false })
+  articuloMasComprado!: string;
 
-  @Column({ type: "int", nullable: false })
-  artiucloMasDeseado!: number;
+  @Column({ nullable: false })
+  mesDeMasCompras!: string;
+
+  @Column({ nullable: false })
+  compraEnQuincena!: string;
+
+  @Column({ nullable: false })
+  artiucloMasDeseado!: string;
 }
