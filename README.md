@@ -77,7 +77,3 @@ Este comando iniciará el proceso de lectura del archivo CSV y la inserción de 
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
-
----
-
-Espero que este archivo `README.md` te sea útil para documentar y compartir tu proyecto. Si necesitas asistencia adicional o tienes preguntas específicas sobre la implementación, no dudes en consultarme.
